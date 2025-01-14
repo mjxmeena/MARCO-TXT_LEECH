@@ -1,5 +1,5 @@
 api_id = "25663773"
 api_hash = "211365a39963382b3048cf6586dcff61"
-bot_token = ""
+bot_token = "7725512465:AAFsB9UvOIbLv1pnUBuuTS21jd0okkdqW_w"
 AUTH = "7725512465"
 #Bot Username = "nitish"
