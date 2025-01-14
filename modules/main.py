@@ -226,7 +226,7 @@ async def account_login(bot: Client, m: Message):
 
     except Exception as e:
         await m.reply_text(e)
-    await m.reply_text("**पूरा हो गया 𝐵𝒶𝓉𝒸𝒽,\n\nखुश रहो...😎**")
+    await m.reply_text("**𝐇𝐨 𝐆𝐲𝐚 𝐉𝐢𝐢.✅\n\nखुश रहो...😎**")
 
 
 bot.run()
