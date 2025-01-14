@@ -181,7 +181,7 @@ async def download_video(url,cmd, name):
 
 
 async def send_doc(bot: Client, m: Message,cc,ka,cc1,prog,count,name):
-    reply = await m.reply_text(f"**Uᴘʟᴏᴀᴅɪɴɢ** » `{name}`\n **बोट भूरिया ने बनाया है 😝.**")
+    reply = await m.reply_text(f"\n **╭──⌯════देखलो भाई 𝖀𝖕𝖑𝖔𝖆𝖉𝖎𝖓𝖌 चल रही है ═════⌯──╮ \n├⚡ {progress_bar}|﹝{perc}﹞ \n├🚀 Speed » {sp} \n├📟 Processed » {cur}\n├🧲 Size - ETA » {tot} - {eta} \n├𝕭𝖔𝖙 𝓜α∂𝒆 𝐁𝐲 » ＭＡＲＣＯ™ ☢♔\n╰─═══ ✪ Powered By MARCO_MAIN ✪ ═══─╯**\n") 
     time.sleep(1)
     start_time = time.time()
     await m.reply_document(ka,caption=cc1)
