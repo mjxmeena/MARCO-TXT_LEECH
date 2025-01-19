@@ -7,7 +7,7 @@
         "video-extract",
         "pyrogram"
     ],
-    "repository": "https://github.com/MARCO-UNIVERSE/MARCO-TXT_LEECH",
+    "repository": "https://github.com/mrmanoj950/MARCO-TXT_LEECH",
     "success_url": "https://t.me/marco_main",
     "stack": "container",
     "env": {
