@@ -155,7 +155,7 @@ async def account_login(bot: Client, m: Message):
             elif 'classplusapp' in url:
                   headers = {
                       'Host': 'api.classplusapp.com',
-                      'x-access-token': 'eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJpZCI6MTMxNzkyNDE3LCJvcmdJZCI6NzYxOCwidHlwZSI6MSwibW9iaWxlIjoiOTE2Mzc1MjgyNjY3IiwibmFtZSI6IkphaSBTaHJlZSBSYW0iLCJlbWFpbCI6InBhbmtham1lZW5hNzA2MjQyMzUzNkBnbWFpbC5jb20iLCJpc0ZpcnN0TG9naW4iOnRydWUsImRlZmF1bHRMYW5ndWFnZSI6IkVOIiwiY291bnRyeUNvZGUiOiJJTiIsImlzSW50ZXJuYXRpb25hbCI6MCwiaXNEaXkiOnRydWUsImxvZ2luVmlhIjoiT3RwIiwiZmluZ2VycHJpbnRJZCI6ImRmODRjMGVjOTk5YjliZDE4ZTUwOTA3MTM2MDg5ZWQ3IiwiaWF0IjoxNzM3MTkyMTA5LCJleHAiOjE3Mzc3OTY5MDl9.k6TiHDMn_YdXEv14fvr1Fuy3gVcMOu_o05SEOOZg8fLEsGZXG0A7NRNrHMIeArLs',
+                      'x-access-token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjMyODI4IiwiZW1haWwiOiJuYXZlZG1vaGFtbWFkMDUzQGdtYWlsLmNvbSIsInRpbWVzdGFtcCI6MTczMjU5Njg5N30.3MJZbdJwKMx2X5DfeG8MD83LvOccQ6fUd5Y_gl4kqgk',
                       'user-agent': 'Mobile-Android',
                       'app-version': '1.4.37.1',
                       'api-version': '18',
