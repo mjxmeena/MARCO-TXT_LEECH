@@ -32,26 +32,26 @@ bot = Client(
 @bot.on_message(filters.command(["start"]))
 async def account_login(bot: Client, m: Message):
     editable = await m.reply_text(
-       f"𝐇𝐞𝐥𝐥𝐨 ❤️\n\n❖ 𝐌𝐀𝐑𝐂𝐎 𝐔𝐍𝐈𝐕𝐄𝐑𝐒𝐄 ❖\n\n❈ I Am A Bot For Download Links From Your **TXT** File.", reply_markup=InlineKeyboardMarkup(
+       f"𝐇𝐞𝐥𝐥𝐨 ❤️\n\n❖ ♛𝕸𝖆𝖓𝖔𝖏 𝕸𝖊𝖊𝖓𝖆♛ ❖\n\n❈ I Am A Bot For Download Links From Your **TXT** File. Use /mj Command & Upload Your **TXT** File.", reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("♛ 𝐉𝐨𝐢𝐧 𝐌𝐀𝐈𝐍 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ♛" ,url=f"https://t.me/+9avfoishHmExN2Y1") ],
+                    InlineKeyboardButton("♛ 𝐉𝐨𝐢𝐧 𝐌𝐀𝐈𝐍 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ♛" ,url=f"https://t.me/shikshamahal1") ],
                     [
-                    InlineKeyboardButton("★ ＭＡＲＣＯ™ ★" ,url="https://t.me/MARCO_015") ],
+                    InlineKeyboardButton("★ ♛𝕸𝖆𝖓𝖔𝖏 𝕸𝖊𝖊𝖓𝖆♛™ ★" ,url="https://t.me/darkdevilofficial_bot") ],
                     [
-                    InlineKeyboardButton("🐯 𝐅𝐨𝐥𝐥𝐨𝐰 𝐌𝐞 🐯" ,url="https://t.me/MARCO_MAIN") ]                               
+                    InlineKeyboardButton("🐯 𝐅𝐨𝐥𝐥𝐨𝐰 𝐌𝐞 🐯" ,url="https://t.me/shikshamahal") ]                               
             ]))
 
 @bot.on_message(filters.command("ruko"))
 async def restart_handler(_, m):
-    await m.reply_text("**ʀᴜᴋ ɢʏᴀ ꜱɪʀ 😡**", True)
+    await m.reply_text("**ʀᴜᴋ ɢʏᴀ ꜱɪʀ 🫡😎**", True)
     os.execl(sys.executable, sys.executable, *sys.argv)
 
 
 
-@bot.on_message(filters.command(["marco"]))
+@bot.on_message(filters.command(["mj"]))
 async def account_login(bot: Client, m: Message):
-    editable = await m.reply_text('**और कैसे हो😁.😎 \n\n अब 𝐓𝐗𝐓 𝐟𝐢𝐥𝐞 भेज दो, इंतजार कर ⚡️**')
+    editable = await m.reply_text('**और कैसे हो🤨.😎 \n\n अब 𝐓𝐗𝐓 𝐟𝐢𝐥𝐞 भेज दो, सर जी 🤭⚡️**')
     input: Message = await bot.listen(editable.chat.id)
     x = await input.download()
     await input.delete(True)
@@ -78,7 +78,7 @@ async def account_login(bot: Client, m: Message):
     raw_text = input0.text
     await input0.delete(True)
 
-    await editable.edit("**𝐁𝐚𝐭𝐜𝐡 का नाम लिखो 😅**")
+    await editable.edit("**𝐁𝐚𝐭𝐜𝐡 का नाम लिखो ⛳📝**")
     input1: Message = await bot.listen(editable.chat.id)
     raw_text0 = input1.text
     await input1.delete(True)
@@ -108,17 +108,17 @@ async def account_login(bot: Client, m: Message):
     
     
 
-    await editable.edit("**Enter A Captio to add Otherwise send**   **`ＭＡＲＣＯ™`**")
+    await editable.edit("**Enter A Captio to add Otherwise send**   **`♛𝕸𝖆𝖓𝖔𝖏 𝕸𝖊𝖊𝖓𝖆♛™`**")
     input3: Message = await bot.listen(editable.chat.id)
     raw_text3 = input3.text
     await input3.delete(True)
-    highlighter  = f"️ＭＡＲＣＯ™⁪⁬⁮⁮⁮"
-    if raw_text3 == 'ＭＡＲＣＯ™':
+    highlighter  = f"️♛𝕸𝖆𝖓𝖔𝖏 𝕸𝖊𝖊𝖓𝖆♛™⁪⁬⁮⁮⁮"
+    if raw_text3 == '♛𝕸𝖆𝖓𝖔𝖏 𝕸𝖊𝖊𝖓𝖆♛™':
         MR = highlighter 
     else:
         MR = raw_text3
    
-    await editable.edit("Now Send Your **Thumb url**\nEg : https://i.imghippo.com/files/yDpB6987rZU.jpg\n\nOr Send **no**")
+    await editable.edit("Now Send Your **Thumb url**\nEg : https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkZIDFIOIP5CZAE-AAL8lLWJRnuEyOLdywZ7fQgt74RDw2nsZrBdCkfVS9xtxA7TXHCJxcIWb_r8a3zBp4-9ipN-FKuIMqtFxuj884ic0DWB3_KQTWWB30XjelP8h288I_cvIeQlW8-TL4cXdj2-F9cEpAgJ8unqw71Tonga4Y5ZcOf36Oz7Q4rdNsEMmo/s3264/1000034610.jpg\n\nOr Send **no**")
     input6 = message = await bot.listen(editable.chat.id)
     raw_text6 = input6.text
     await input6.delete(True)
@@ -155,7 +155,7 @@ async def account_login(bot: Client, m: Message):
             elif 'classplusapp' in url:
                   headers = {
                       'Host': 'api.classplusapp.com',
-                      'x-access-token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjMyODI4IiwiZW1haWwiOiJuYXZlZG1vaGFtbWFkMDUzQGdtYWlsLmNvbSIsInRpbWVzdGFtcCI6MTczMjU5Njg5N30.3MJZbdJwKMx2X5DfeG8MD83LvOccQ6fUd5Y_gl4kqgk',
+                      'x-access-token': 'eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJpZCI6MTMxNzkyNDE3LCJvcmdJZCI6NzYxOCwidHlwZSI6MSwibW9iaWxlIjoiOTE2Mzc1MjgyNjY3IiwibmFtZSI6IkphaSBTaHJlZSBSYW0iLCJlbWFpbCI6InBhbmtham1lZW5hNzA2MjQyMzUzNkBnbWFpbC5jb20iLCJpc0ZpcnN0TG9naW4iOnRydWUsImRlZmF1bHRMYW5ndWFnZSI6IkVOIiwiY291bnRyeUNvZGUiOiJJTiIsImlzSW50ZXJuYXRpb25hbCI6MCwiaXNEaXkiOnRydWUsImxvZ2luVmlhIjoiT3RwIiwiZmluZ2VycHJpbnRJZCI6ImRmODRjMGVjOTk5YjliZDE4ZTUwOTA3MTM2MDg5ZWQ3IiwiaWF0IjoxNzM3MTkyMTA5LCJleHAiOjE3Mzc3OTY5MDl9.k6TiHDMn_YdXEv14fvr1Fuy3gVcMOu_o05SEOOZg8fLEsGZXG0A7NRNrHMIeArLs',
                       'user-agent': 'Mobile-Android',
                       'app-version': '1.4.37.1',
                       'api-version': '18',
@@ -182,8 +182,8 @@ async def account_login(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**[ 🎥 ] Vid_ID:** {str(count).zfill(3)}.**\n {name1} {res} ＭＡＲＣＯ™.mkv\n𝐁𝐚𝐭𝐜𝐡 » **{raw_text0}**\n\nΣＸＴＲΛＣＴΞＤ ＢＹ: {MR}\n\n'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
-                cc1 = f'**[ 📁 ] Pdf_ID:** {str(count).zfill(3)}.\n {name1} ＭＡＲＣＯ™.pdf \n𝐁𝐚𝐭𝐜𝐡 » **{raw_text0}**\n\nΣＸＴＲΛＣＴΞＤ ＢＹ: {MR}\n\n'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+                cc = f'**[ 🎥 ] Vid_ID:** {str(count).zfill(3)}.**\n {name1} {res} ♛𝕸𝖆𝖓𝖔𝖏 𝕸𝖊𝖊𝖓𝖆♛™.mkv\n𝐁𝐚𝐭𝐜𝐡 » **{raw_text0}**\n\nΣＸＴＲΛＣＴΞＤ ＢＹ: {MR}\n\n'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+                cc1 = f'**[ 📁 ] Pdf_ID:** {str(count).zfill(3)}.\n {name1} ♛𝕸𝖆𝖓𝖔𝖏 𝕸𝖊𝖊𝖓𝖆♛™.pdf \n𝐁𝐚𝐭𝐜𝐡 » **{raw_text0}**\n\nΣＸＴＲΛＣＴΞＤ ＢＹ: {MR}\n\n'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
                 if "drive" in url:
                     try:
                         ka = await helper.download(url, name)
@@ -209,7 +209,7 @@ async def account_login(bot: Client, m: Message):
                         time.sleep(e.x)
                         continue
                 else:
-                    Show = f"**❊⟱ डाउनलोड करके दे रहा हु थोड़ा टाइम लगेगा ⟱❊ »**\n\n**Name »** `{name}\n⌨ 𝐐𝐮𝐚𝐥𝐢𝐭𝐲 » {raw_text2}`\n\n**Url »** `{url}`\n\n𝕭𝖔𝖙 𝓜α∂𝒆 𝐁𝐲 » ＭＡＲＣＯ™ ☢♔\n"
+                    Show = f"**❊⟱ डाउनलोड करके दे रहा हु थोड़ा टाइम लगेगा ⟱❊ »**\n\n**Name »** `{name}\n⌨ 𝐐𝐮𝐚𝐥𝐢𝐭𝐲 » {raw_text2}`\n\n**Url »** `{url}`\n\n𝕭𝖔𝖙 𝓜α∂𝒆 𝐁𝐲 » ♛𝕸𝖆𝖓𝖔𝖏 𝕸𝖊𝖊𝖓𝖆♛™ ♔\n"
                     prog = await m.reply_text(Show)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
