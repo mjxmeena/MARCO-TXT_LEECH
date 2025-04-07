@@ -22,6 +22,10 @@
         "BOT_TOKEN": {
             "description": "7672004632:AAHohyBfssnv2Nlscz0tqiji3r1I7pfsdUc",
             "required": true
+        },
+        "AUTH": {
+            "description": "AUTH USER"
+            "required": true
         }
     },
     "addons": [],
