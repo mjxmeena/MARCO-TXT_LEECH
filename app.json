@@ -1,13 +1,13 @@
 {
     "name": "𝐌𝐀𝐑𝐂𝐎 𝐓𝐞𝐱𝐭 𝐋𝐞𝐞𝐜𝐡",
     "description": "𝑻𝒆𝒙𝒕 𝑳𝒆𝒆𝒄𝒉 𝑽𝒊𝒅𝒆𝒐 𝑬𝒙𝒕𝒓𝒂𝒄𝒕𝒐𝒓 𝑭𝒐𝒓 𝑻𝒆𝒍𝒆𝒈𝒓𝒂𝒎",
-    "logo": "https://i.imghippo.com/files/yDpB6987rZU.jpg",
+    "logo": "https://tinypic.host/images/2025/04/07/1000068272.jpg",
     "keywords": [
         "text-video",
         "video-extract",
         "pyrogram"
     ],
-    "repository": "https://github.com/mrmanoj950/MARCO-TXT_LEECH",
+    "repository": "https://github.com/mjxmeena/MARCO-TXT_LEECH",
     "success_url": "https://t.me/marco_main",
     "stack": "container",
     "env": {
